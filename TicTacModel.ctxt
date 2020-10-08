@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=s\ b
+comment0.target=TicTacModel(java.lang.String[][],\ boolean[][])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ TicTacModel\n\ Accepts\ a\ 2-D\ arrays\ of\ Strings\ and\ booleans\n\ then\ saves\ them\ as\ instance\ variables.\n\ \n\ @param\ \ strArray\ \ \ a\ 2-D\ array\ of\ Strings\n\ @param\ \ boolArray\ \ \ a\ 2-D\ array\ of\ Strings\n
+comment1.params=row\ col
+comment1.target=void\ squareClicked(int,\ int)
+comment1.text=\n\ Each\ time\ a\ square\ is\ clicked,\ the\ GUI\ will\ send\ the\ location\ of\ the\ click.\n\ This\ method\ must\ update\ the\ status\ of\ the\ stringArray\ and\ booleanArray\n\ \ based\ on\ the\ location\ information.\n\ \ \n\ Including\:\n\ \ \ Refreshing\ the\ gameboard\ in\ the\ case\ of\ a\ win\ or\ tie\ on\ a\ previous\ click.\n\ \ \ Alternating\ X\ and\ O\ with\ each\ click\ in\ square\ without\ an\ X\ or\ O.\n\ \ \ Determining\ if\ a\ win\ or\ tie\ has\ occurred.\n\ \ \ Changing\ the\ background\ color\ via\ the\ 2-D\ boolean\ array\n\ \ \ \ \ in\ the\ event\ of\ a\ win\ or\ tie.\n\ \n\ @param\ \ row\ \ \ integer\ indicating\ the\ row\ of\ the\ clicked\ square\n\ @param\ \ col\ \ \ integer\ indicating\ the\ col\ of\ the\ clicked\ square\n
+numComments=2
